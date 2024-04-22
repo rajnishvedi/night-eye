@@ -1,0 +1,369 @@
+/* Your styles goes here. */
+body {
+  background-color: black;
+  font-family: 'Poppins';
+ 
+}
+
+.Subscribe{
+    box-shadow: 0px 4px 4px 0px #00000040 , 0px 0px 11px 0px #A855F78C;
+    width: 100%;
+    height: 46px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 0px 12px;
+    border-radius: 12px;
+}
+.Subscribe input{
+  background: transparent;
+  border: none;
+  outline: none;
+}
+.Subscribe button{
+  width: 33px;
+  height: 33px;
+  border-radius: 33px;
+  background-color: white;
+  color: #252836;
+  
+}
+.header{
+  width: 100%;
+  height: 140.88px;
+  box-shadow: 0px 5.25px 26.63px 6px #A855F766;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  overflow: hidden;
+  
+
+}
+.logoname h3{
+font-family: Poppins;
+font-size: 26.8px;
+font-weight: 600;
+line-height: 34.72px;
+text-align: center;
+color: white;
+
+}
+.logoname h3 span{
+  color:#A855F7;
+  
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    /* column-gap: 12px; */
+    width: 15%;
+    justify-content: space-around;
+}
+.logo img{
+  width: 59px;
+  height: 66.11px;
+
+  gap: 0px;
+  opacity: 0px;
+  
+}
+.followbutton{
+  width: 162.52px;
+  height: 54.52px;
+  border-radius: 53.38px;
+  border: 2px  solid #A855F7;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+
+
+}
+.followbutton h4{
+font-family: Roboto;
+font-size: 20.13px;
+font-weight: 700;
+line-height: 30.19px;
+text-align: left;
+
+}
+.followbutton .insta{
+  width: 25.48px;
+  height: 25.48px;
+  top: 14.52px;
+  left: 120.02px;
+  gap: 0px;
+  opacity: 0px;
+color:  #A855F7;
+ 
+}
+.firstline{
+  width: 100%;
+  height: 75.16px;
+ 
+  gap: 0px;
+  opacity: 0px;
+  rotate: -0.9deg;  
+  background-color: #A855F7;
+
+  
+}
+.secondline{
+width: 100%;
+height: 75.16px;
+top: 0px;
+gap: 0px;
+opacity: 0px;
+
+rotate: 0.89deg;
+  background-color: #A855F7;
+  position: absolute;
+  box-shadow: 0px 0.81px 57.75px 0px #000000B0;
+  display: grid;
+  align-content: center;
+}
+.secondline h4{
+  font-family: Poppins;
+font-size: 30.99px;
+font-weight: 500;
+line-height: 46.49px;
+text-align: center;
+rotate: -0.9deg; 
+color: white;
+}
+.towlines{
+  top: 42px;
+  position: relative;
+  height: 120px;
+}
+.guessText{
+  color: white;
+}
+.guessText h1{
+  font-family: Poppins;
+font-size: 77.1px;
+font-weight: 600;
+line-height: 96.4px;
+text-align: left;
+
+}
+.guessText h1 span{
+  color: #A855F7;
+}
+.guessText h3{
+font-family: Poppins;
+font-size: 55.1px;
+font-weight: 600;
+line-height: 91.4px;
+text-align: left;
+}
+.guessText h3 span{
+  color: #A855F7;
+}
+.guessImage img{
+  width: 500px;
+  height: 623px;
+top: 413px;
+left: 934px;
+gap: 0px;
+opacity: 0px;
+
+object-fit: contain;
+
+
+
+}
+.Guesswork{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+align-items: center;
+padding-top: 100px;
+    padding-bottom: 50px;
+    /* background: url(../../public/images/Ellipse\ 1506.svg); */
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+
+}
+.socialNetwork{
+color: white;
+text-align: center;
+
+display: grid;
+justify-content: center;
+justify-items: center;
+padding-bottom: 230px;
+/* background: url(../../public/images/Ellipse\ 1506.svg); */
+background-size: contain;
+background-position-x: left;
+background-repeat: no-repeat;
+
+}
+.socialNetwork h1{
+font-family: Poppins;
+font-size: 77.1px;
+font-weight: 600;
+line-height: 96.4px;
+text-align: center;
+width: 1078px;
+height: 193px;
+top: 1495px;
+left: 301px;
+gap: 0px;
+opacity: 0px;
+
+}
+.socialNetwork h1 span{
+  color: #A855F7;
+}
+.socialNetwork p{
+  font-family: Poppins;
+font-size: 43px;
+font-weight: 400;
+line-height: 67px;
+text-align: center;
+width: 1078px;
+height: 134px;
+top: 1719px;
+left: 301px;
+gap: 0px;
+opacity: 0px;
+
+
+}
+.twobox .secondbox img{
+  width: 542px;
+    height: 542px;
+top: 2082px;
+left: 897px;
+gap: 0px;
+opacity: 0px;
+
+}
+.explore{
+  width: 245px; 
+  height: 263px;
+  top: 2198px;
+  left: 167px;
+  gap: 0px;
+  border-radius: 22px;
+  background-color: #7139AB;
+  padding: 24px;
+
+}
+.live{
+  padding: 24px;
+  width: 283px;
+height: 294px;
+top: 2167px;
+left: 451px;
+gap: 0px;
+border-radius: 22px;
+opacity: 0px;
+background-color: #6814C1;
+
+}
+.track{
+
+  width: 267px;
+height: 358px;
+top: 190px;
+left: 96px;
+gap: 0px;
+border-radius: 22px;
+opacity: 0px;
+background-color: black;
+position: absolute;
+}
+.track .innertrack{
+  padding: 24px;
+width: 205.41px;
+height: 275px;
+top: 2412px;
+left: 305px;
+gap: 0px;
+border-radius: 11.45px;
+opacity: 0px;
+background-color:  #6814C1;
+
+
+}
+.connect{
+  padding: 24px;
+  width: 245px;
+height: 263px;
+top:326px;
+  left: 364px;
+gap: 0px;
+border-radius: 22px;
+opacity: 0px;
+background-color: #7139AB;
+}
+.twobox{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+.explore h3, 
+.live h3, 
+.innertrack h3,
+.connect h3{
+  font-family: Poppins;
+font-size: 40.96px;
+font-weight: 500;
+line-height: 69.86px;
+text-align: left;
+color: white;
+width: 235px;
+height: 71px;
+
+
+
+}
+.explore p, 
+.live p, 
+.innertrack p,
+.connect p{
+  font-family: Poppins;
+font-size: 22.99px;
+font-weight: 500;
+line-height: 35.2px;
+text-align: left;
+color: white;
+}
+
+.formbox{
+  width: 1122px;
+  height: 551px;
+  border-radius: 19px;
+  border: 1px solid #FFFFFF29;
+  background: linear-gradient(90deg, black , #9d3cf733 100%);
+}
+.formfill h3{
+  font-family: Poppins;
+  font-size: 49.91px;
+  font-weight: 600;
+  line-height: 76.64px;
+  text-align: left;
+  color: white;  
+}
+.formfill h3 span{
+  color: #A855F7;
+}
+
+.main-container{
+  background: url(../../public/images/Ellipse\ 1506.svg);
+  background-size: contain;
+  background-repeat: round;
+}
+.formdata{
+  background: url(../../public/images/Ellipse\ 1506.svg);
+  background-size: cover;
+}
